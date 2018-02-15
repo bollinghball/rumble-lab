@@ -56,7 +56,13 @@
 
 .heading-block { margin-bottom: 50px; }
 
-.heading-block h1,
+.heading-block h1 {
+	margin-bottom: 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #105A94;
+}
+
 .heading-block h2,
 .heading-block h3,
 .heading-block h4,
@@ -66,7 +72,7 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #3398CC;
+	color: #105A94;
 }
 
 .emphasis-title h1,
@@ -78,7 +84,13 @@
 
 .heading-block h1 { font-size: 32px; }
 
-.heading-block h2 { font-size: 30px; }
+.heading-block h2 { font-size: 18px; }
+
+@media all and (min-width:768px) {
+	.heading-block h2 {
+		font-size: 30px;
+	}
+}
 
 .heading-block h3 { font-size: 26px; }
 

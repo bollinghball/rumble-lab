@@ -139,12 +139,6 @@ dl, dt, dd, ol, ul, li {
 	width: 50%;
 }
 
-@media all and (min-width: 768px) {
-	.rumble_head {
-		max-width: 15% !important;
-	}
-}
-
 .bio__heading {
     color: #3398cc !important;
 	font-size: 32px !important;
@@ -166,28 +160,10 @@ dl, dt, dd, ol, ul, li {
 	color: #333;
 }
 
-.how__image {
-	height: auto;
-	width: 55%;
-}
-
-@media all and (min-width: 768px) {
-	.how__image {
-		height: auto;
-		width: 75%;
-	}
-}
-
 .leftList {
 	margin-left: 5rem;
 }
 
-@media all and (min-width: 768px) {
-	.how__image {
-		height: auto;
-		width: 50%;
-	}
-}
 
 .shop__image {
 	height: 30rem;
@@ -229,14 +205,6 @@ dl, dt, dd, ol, ul, li {
     text-align: center;
 }
 
-@media all and (min-width: 768px) {
-	.shop2 {
-		background-color: #78B657;
-		border-radius: 3px;
-		color: #fff;
-		padding: 1rem;
-	}
-}
 
 .shop2:hover {
 	background-color: #444;
@@ -252,38 +220,12 @@ img.header-logo {
 
 }
 
-@media all and (min-width: 992px) {
-
-	img.header-logo {
-		/*margin-top: 2rem !important;*/
-		width: 19rem !important;
-	}
-}
-
-@media all and (min-width: 1146px) {
-	img.header-logo {
-		width: initial !important;
-	}
-}
-
 .flex {
 	display: flex;
 }
 
 .flex1 {
 	flex: 1;
-}
-
-@media all and (min-width: 768px) {
-	.flex3 {
-		display: flex;
-	}
-}
-
-@media all and (min-width: 1000px) {
-	.flex4 {
-		display: flex;
-	}
 }
 
 .flex-center {
@@ -294,16 +236,6 @@ img.header-logo {
 .flex-auto	{
 	flex: 1 1 auto;
 }
-
-@media all and (min-width: 768px) {
-	.badge-flex {
-		align-items: center; 
-		display: flex;
-		flex-basis: 45%; 
-		justify-content: space-around;
-	}
-}
-
 
 .flex-all {
 	flex-grow: 1;
@@ -328,13 +260,6 @@ img.header-logo {
 	flex-direction: column;
 }
 
-@media all and (min-width: 768px) {
-	.flex-space {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-}
-
 .column {
 	flex-direction: column;
 }
@@ -347,6 +272,21 @@ img.header-logo {
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 0%;
+}
+
+.flex6 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flex7 {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1 1 auto;
 }
 
 .bb {
@@ -363,29 +303,8 @@ img.header-logo {
 	background-position: 50% 50%;
 }
 
-@media all and (min-width: 768px) {
-	.mobile-header {
-		background: url('../images/Hero-Image-Overlay.jpg'); 
-		background-size: cover; 
-		background-position: 50% 50%;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.bottommargin2 {
-		margin-bottom: 50px!important
-	}
-}
-
-
 .shopify-buy__product {
 	margin-bottom: 2rem;
-}
-
-@media all and (min-width: 768px) {
-	.shopify-buy__product {
-		margin-bottom: 0;
-	}
 }
 
 .smallRumble {
@@ -395,23 +314,8 @@ img.header-logo {
 	display: block;
 }
 
-@media all and (min-width: 768px) {
-	.smallRumble {
-		width: 20%;
-		height: 20%;
-		margin: initial;
-	}
-}
-
 .smallRumble2 {
 	width: 55%;
-}
-
-@media all and (min-width: 768px) {
-	.smallRumble2 {
-		width: 25%;
-		height: 100%;
-	}
 }
 
 #mc_embed_signup {
@@ -508,22 +412,6 @@ img.header-logo {
 	font-size: 15px;
 }
 
-@media all and (min-width: 768px) {
-	.side {
-		margin-right: 1rem;
-	}
-}
-
-// .width-sm {
-// 	width: 40rem;
-// }
-
-@media all and (min-width: 768px) {
-	.width-sm {
-		width: 32rem;
-	}
-}
-
 .learnButton {
 	background-color: #3398cc;
 	border-radius: 3px;
@@ -553,7 +441,7 @@ img.header-logo {
 }
 
 .blue {
-	color: #3398cc;
+	color: #105A94;
 }
 
 .max-width	{
@@ -592,14 +480,6 @@ img.header-logo {
 	max-width: 1040px;
 }
 
-@media all and (min-width: 768px) {
-	.rlForm {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-	}
-}
-
 #mce-FNAME1 {
 	margin-left: -3.25rem;
 }
@@ -621,55 +501,12 @@ img.header-logo {
 	text-transform: uppercase;
 }
 
-@media all and (max-width: 768px) {
-	.mob-badge {
-		display: block;
-		margin: 0 auto;
-		padding-bottom: 2rem;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.shirt {
-		flex-direction: row;
-		text-align: initial;
-	}
-}
-
 .bod-mar {
 	margin-bottom: 4rem;
 }
 
 .right-pad {
 	width: 20rem;
-}
-
-@media all and (min-width: 768px) {
-	.bod-mar {
-		margin-bottom: 0;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.right-mar {
-		margin-right: 5rem;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.right-pad {
-		padding-right: 5rem;
-		width: 50rem;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.instructions {
-		list-style: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 50rem;
-	}
 }
 
 .instructions {
@@ -700,7 +537,145 @@ img.header-logo {
 
 #works {
 	background-color: #EBEBEB;
-    border: 15px solid #fff;
+}
+
+.nomargin {
+	margin-bottom: 0px !important;
+}
+
+.free {
+	font-size: 25px;
+}
+
+#challenge, #tops, #crusher {
+	background-color: #fff;
+}
+
+
+
+// CUSTOM MEDIA QUERIES
+@media all and (min-width: 768px) {
+	.rumble_head {
+		max-width: 15% !important;
+	}
+
+	.shop2 {
+		background-color: #78B657;
+		border-radius: 3px;
+		color: #fff;
+		padding: 1rem;
+	}
+
+	.flex3 {
+		display: flex;
+	}
+
+	.badge-flex {
+		align-items: center; 
+		display: flex;
+		flex-basis: 45%; 
+		justify-content: space-around;
+	}
+
+	.flex-space {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.flex7 {
+		flex-direction: row;
+	}
+
+	.mobile-header {
+		background: url('../images/Hero-Image-Overlay.jpg'); 
+		background-size: cover; 
+		background-position: 50% 50%;
+	}
+
+	.bottommargin2 {
+		margin-bottom: 50px!important
+	}
+
+	.shopify-buy__product {
+		margin-bottom: 0;
+	}
+
+	.smallRumble {
+		width: 20%;
+		height: 20%;
+		margin: initial;
+	}
+
+	.smallRumble2 {
+		width: 25%;
+		height: 100%;
+	}
+
+	.side {
+		margin-right: 1rem;
+	}
+
+	.width-sm {
+		width: 32rem;
+	}
+
+	.rlForm {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.mob-badge {
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 2rem;
+	}
+
+	.shirt {
+		flex-direction: row;
+		text-align: initial;
+	}
+	
+	.bod-mar {
+		margin-bottom: 0;
+	}
+	
+	.right-mar {
+		margin-right: 5rem;
+	}
+	
+	.right-pad {
+		padding-right: 5rem;
+		width: 50rem;
+	}
+	
+	.instructions {
+		list-style: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 50rem;
+	}
+	
+}
+
+@media all and (min-width: 992px) {
+
+	img.header-logo {
+		/*margin-top: 2rem !important;*/
+		width: 19rem !important;
+	}
+}
+
+@media all and (min-width: 1146px) {
+	img.header-logo {
+		width: initial !important;
+	}
+}
+
+@media all and (min-width: 1000px) {
+	.flex4 {
+		display: flex;
+	}
 }
 
 
@@ -712,7 +687,7 @@ img.header-logo {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif !important;
 }
 
 a {
@@ -736,6 +711,16 @@ p {
 	font-size: 18px;
 }
 
+.included {
+	display: block;
+	margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	color: #105a94;
+	font-size: 30px;
+	text-align: center;
+}
 
 /* ----------------------------------------------------------------
 	Basic Layout Styles
@@ -763,6 +748,7 @@ h1 { font-size: 36px; }
 h2 { 
 	font-size: 30px;
 	color: #3398CC;
+	font-family: 'Montserrat', sans-serif !important;
  }
 
 h3 { font-size: 24px; }
@@ -999,11 +985,11 @@ span.middot {
 
 .nolineheight { line-height: 0 !important; }
 
-.font-body { font-family: 'Lato', sans-serif; }
+.font-body { font-family: 'Montserrat', sans-serif; }
 
 .font-primary { font-family: 'Raleway', sans-serif; }
 
-.font-secondary { font-family: 'Crete Round', serif; }
+.font-secondary { font-family: 'Montserrat', serif; }
 
 .bgicon {
 	display: block;
@@ -7180,7 +7166,13 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .heading-block { margin-bottom: 50px; }
 
-.heading-block h1,
+.heading-block h1 {
+	margin-bottom: 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #105A94;
+}
+
 .heading-block h2,
 .heading-block h3,
 .heading-block h4,
@@ -7190,8 +7182,10 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #333;
+	color: #105A94;
 }
+
+
 
 .emphasis-title h1,
 .emphasis-title h2 {
@@ -7203,7 +7197,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block h1 { font-size: 32px; }
 
 .heading-block h2 { 
-	color: #3398CC;
+	color: #105A94;
 	font-size: 30px; 
 }
 
