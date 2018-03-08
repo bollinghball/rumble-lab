@@ -328,6 +328,10 @@ img.header-logo {
 	margin-bottom: 2rem;
 }
 
+.shopify-buy__btn {
+	padding: 12px 20px !important;
+}
+
 .smallRumble {
 	width: 50%;
 	height: 50%;
@@ -617,6 +621,14 @@ img.header-logo {
 	border: 1px solid #40B34f;
 }
 
+.lime-table-mobile table, .lime-table-mobile th, .lime-table-mobile td {
+	border: 1px solid #40B34f;
+}
+
+.lime-table {
+	display: none;
+}
+
 .weekBlue {
 	color: #368BC5;
 }
@@ -633,6 +645,13 @@ img.header-logo {
 	border: 1px solid #F59231;
 }
 
+.sun-table-mobile table, .sun-table-mobile th, .sun-table-mobile td {
+	border: 1px solid #F59231;
+}
+
+.sun-table {
+	display: none;
+}
 .table-head {
 	text-align: center;
     padding: 1rem;
@@ -646,6 +665,17 @@ img.header-logo {
 	width: 75%;
     display: block;
     margin: 0 auto;
+}
+
+.stick-image2 {
+	width: 50%;
+	display: block;
+    margin: 0 auto;
+}
+
+.footer-flex {
+	display: flex;
+	flex-direction: column;
 }
 
 // CUSTOM MEDIA QUERIES
@@ -764,7 +794,37 @@ img.header-logo {
 		display: block;
 		margin: 0 auto;
 	}
+
+	.stick-image2 {
+		width: 25%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.lime-table-mobile {
+		display: none;
+	}
+
+	.lime-table {
+		display: block;
+	}
 	
+	.sun-table-mobile {
+		display: none;
+	}
+
+	.sun-table {
+		display: block;
+	}
+
+	.footer-flex {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.footer-shop {
+		width: 65%;
+	}
 }
 
 @media all and (min-width: 992px) {
@@ -776,6 +836,10 @@ img.header-logo {
 
 	.flex7 {
 		flex-direction: row;
+	}
+
+	.footer-shop {
+		width: 45%;
 	}
 }
 

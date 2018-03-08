@@ -77,7 +77,7 @@
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
 
-	<link rel="stylesheet" href="styles/style.min.css?v=1" type="text/css" />
+	<link rel="stylesheet" href="styles/style.min.css?v=2" type="text/css" />
 	<!-- Document Title
 	============================================= -->
 	<title>RumbleLab</title>
@@ -92,7 +92,7 @@
 		<header id="header" class="transparent-header full-header sticky-header" data-sticky-class="not-dark">
 			<div id="header-wrap" class="not-dark">
 				<div class="container">
-					<!-- <div id="primary-menu-trigger"><i class="icon-reorder"></i></div> -->
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
@@ -129,7 +129,7 @@
 					</div>
 					<div id="challenge" class="row clearfix bottommargin common-height">
 						<div class="col-md-6 center height">
-							<div class="topmargin" data-animate="">
+							<div class="topmargin">
 								<img src="images/MarsDesktop.jpg">
 							</div>
 							<div class="smallMarginLeft">
@@ -138,136 +138,131 @@
 							</div>
 						</div>
 						<div class="topmargin col-md-6 center height bottommargin">
-							<div class="" data-animate="">
+							<div>
 								<h2 class="text-left blue">Mission to Mars</h2>
 								<p class="text-left">We need your help on our Mission to Mars. Read the comic and learn about the problems that came up. Then use the 200+ parts from your crate to invent things to solve these problems.</p>
 							</div>
 							<img src="images/MarsProjectsDesktop.jpg" />
-							<div class="flex flex-space" data-animate="">
+							<div class="flex flex-space">
 								<div class="flex column">
-									<p class="flex-auto text-left nomargin free"><strong>$199.99</strong></p>
+									<p class="flex-auto text-left nomargin free"><strong>$299.99</strong></p>
 									<p class="flex-auto text-left free"><strong>FREE SHIPPING</strong></p>
 								</div>
-								<div id='product-component-f1241c11cba'></div>
-								<script type="text/javascript">
-									/*<![CDATA[*/
+								<div id='product-component-5c0309f334e'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
 
-									(function () {
-										var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-										if (window.ShopifyBuy) {
-											if (window.ShopifyBuy.UI) {
-												ShopifyBuyInit();
-											} else {
-												loadScript();
-											}
-										} else {
-											loadScript();
-										}
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
 
-										function loadScript() {
-											var script = document.createElement('script');
-											script.async = true;
-											script.src = scriptURL;
-											(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-											script.onload = ShopifyBuyInit;
-										}
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
 
-										function ShopifyBuyInit() {
-											var client = ShopifyBuy.buildClient({
-												domain: 'rumblelab.myshopify.com',
-												apiKey: myApiKey,
-												appId: '6',
-											});
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'rumblelab.myshopify.com',
+      apiKey: '15d24cef8a7b2292a4d82c5cb1882905',
+      appId: '6',
+    });
 
-											ShopifyBuy.UI.onReady(client).then(function (ui) {
-												ui.createComponent('product', {
-													id: [10556627847],
-													node: document.getElementById('product-component-f1241c11cba'),
-													moneyFormat: '%24%7B%7Bamount%7D%7D',
-													options: {
-														"product": {
-															"variantId": "all",
-															"width": "240px",
-															"contents": {
-																"img": false,
-																"imgWithCarousel": false,
-																"title": false,
-																"variantTitle": false,
-																"price": false,
-																"description": false,
-																"buttonWithQuantity": false,
-																"quantity": false
-															},
-															"styles": {
-																"product": {
-																	"text-align": "left",
-																	"@media (min-width: 601px)": {
-																		"max-width": "100%",
-																		"margin-left": "0",
-																		"margin-bottom": "50px"
-																	}
-																},
-																"title": {
-																	"font-size": "26px"
-																},
-																"price": {
-																	"font-size": "18px"
-																},
-																"compareAt": {
-																	"font-size": "15px"
-																},
-																"button": {
-																	"padding": "12px 15px",
-																	"margin-left": "1rem !important"
-																}
-															}
-														},
-														"cart": {
-															"contents": {
-																"button": true
-															},
-															"styles": {
-																"footer": {
-																	"background-color": "#ffffff"
-																}
-															}
-														},
-														"modalProduct": {
-															"contents": {
-																"img": false,
-																"imgWithCarousel": true,
-																"variantTitle": false,
-																"buttonWithQuantity": true,
-																"button": false,
-																"quantity": false
-															},
-															"styles": {
-																"product": {
-																	"@media (min-width: 601px)": {
-																		"max-width": "100%",
-																		"margin-left": "0px",
-																		"margin-bottom": "0px"
-																	}
-																}
-															}
-														},
-														"productSet": {
-															"styles": {
-																"products": {
-																	"@media (min-width: 601px)": {
-																		"margin-left": "-20px"
-																	}
-																}
-															}
-														}
-													}
-												});
-											});
-										}
-									})();
-									/*]]>*/
-
-								</script>
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [10556627847],
+        node: document.getElementById('product-component-5c0309f334e'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "right",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-size": "15px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 							</div>
 							<!-- <div class="bb" data-animate="fadeIn">
 								<p class="text-left">IN STOCK</p>
@@ -281,16 +276,16 @@
 					<div class="flex7">
 						<div id="tops" class="col-md-6 row clearfix bottommargin common-height flex6">
 							<div class="center height">
-								<div class="" data-animate="">
-									<img class="" src="images/TopsDesktop.jpg">
+								<div>
+									<img src="images/TopsDesktop.jpg">
 								</div>
 							</div>
 							<div class="center height bottommargin-sm">
-								<div class="" data-animate="">
+								<div>
 									<h2 class="text-left blue">Rumble Tops</h2>
 									<p class="text-left">Invent your own tops, then battle them with your friends. Re-engineer and repeat. Use the scientific method and physics or just use good ole trial and error. May the best inventor win.</p>
 								</div>
-								<div class="flex flex-space" data-animate="">
+								<div class="flex flex-space">
 									<div class="flex column">
 										<p class="flex-auto text-left nomargin free"><strong>$14.99</strong> +SHIPPING</p>
 										<p class="flex-auto text-left">Compare at $7.99 w/ Mars</p>
@@ -426,141 +421,135 @@
 						</div>
 						<div id="crusher" class="col-md-6 row clearfix common-height flex6">
 							<div class="center height">
-								<div class="" data-animate="">
+								<div>
 									<img class="" src="images/CanCrusherDesktop.jpg">
 								</div>
 							</div> 
 							<div class="center height">
-								<div class="" data-animate="">
+								<div>
 									<h2 class="text-left blue">Astronaut Can Crusher</h2>
 									<p class="text-left">When traveling in outer space, crushing cans is hard because there is zero gravity. Figure out how to use the parts in this box to invent a machine that can crush a can in zero gravity using only your pinky. Oh, and maybe learn a little about hydraulics in the process.</p>
 								</div>
-								<div class="flex flex-space" data-animate="">
+								<div class="flex flex-space">
 									<div class="flex column">
-										<p class="flex-auto text-left nomargin free"><strong>$39.99</strong> +SHIPPING</p>
+										<p class="flex-auto text-left nomargin free"><strong>$44.99</strong> +SHIPPING</p>
 										<p class="flex-auto text-left">Compare at $24.99 w/ Mars</p>
 									</div>
-									<div id='product-component-fbed8f99013'></div>
-									<script type="text/javascript">
-										/*<![CDATA[*/
-	
-										(function () {
-											var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-											if (window.ShopifyBuy) {
-												if (window.ShopifyBuy.UI) {
-													ShopifyBuyInit();
-												} else {
-													loadScript();
-												}
-											} else {
-												loadScript();
-											}
-	
-											function loadScript() {
-												var script = document.createElement('script');
-												script.async = true;
-												script.src = scriptURL;
-												(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-												script.onload = ShopifyBuyInit;
-											}
-	
-											function ShopifyBuyInit() {
-												var client = ShopifyBuy.buildClient({
-													domain: 'rumblelab.myshopify.com',
-													apiKey: myApiKey,
-													appId: '6',
-												});
-	
-												ShopifyBuy.UI.onReady(client).then(function (ui) {
-													ui.createComponent('product', {
-														id: [10562109191],
-														node: document.getElementById('product-component-fbed8f99013'),
-														moneyFormat: '%24%7B%7Bamount%7D%7D',
-														options: {
-															"product": {
-																"variantId": "all",
-																"width": "240px",
-																"contents": {
-																	"img": false,
-																	"imgWithCarousel": false,
-																	"title": false,
-																	"variantTitle": false,
-																	"price": false,
-																	"description": false,
-																	"buttonWithQuantity": false,
-																	"quantity": false
-																},
-																"styles": {
-																	"product": {
-																		"text-align": "left",
-																		"@media (min-width: 601px)": {
-																			"max-width": "100%",
-																			"margin-left": "0",
-																			"margin-bottom": "50px"
-																		}
-																	},
-																	"title": {
-																		"font-size": "26px"
-																	},
-																	"price": {
-																		"font-size": "18px"
-																	},
-																	"compareAt": {
-																		"font-size": "15px"
-																	},
-																	"button": {
-																		"padding": "12px 25px",
-																		"margin-left": "1rem !important"
-																	}
-																}
-															},
-															"cart": {
-																"contents": {
-																	"button": true
-																},
-																"styles": {
-																	"footer": {
-																		"background-color": "#ffffff"
-																	}
-																}
-															},
-															"modalProduct": {
-																"contents": {
-																	"img": false,
-																	"imgWithCarousel": true,
-																	"variantTitle": false,
-																	"buttonWithQuantity": true,
-																	"button": false,
-																	"quantity": false
-																},
-																"styles": {
-																	"product": {
-																		"@media (min-width: 601px)": {
-																			"max-width": "100%",
-																			"margin-left": "0px",
-																			"margin-bottom": "0px"
-																		}
-																	}
-																}
-															},
-															"productSet": {
-																"styles": {
-																	"products": {
-																		"@media (min-width: 601px)": {
-																			"margin-left": "-20px"
-																		}
-																	}
-																}
-															}
-														}
-													});
-												});
-											}
-										})();
-										/*]]>*/
-	
-									</script>
-								</div>
+									<div id='product-component-00efd10477f'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'rumblelab.myshopify.com',
+      apiKey: '15d24cef8a7b2292a4d82c5cb1882905',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [10562109191],
+        node: document.getElementById('product-component-00efd10477f'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "right",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-size": "15px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 							</div>
 						</div>
 					</div>
@@ -569,12 +558,12 @@
 			<div class="clearfix"></div>
 			<div id="guides" class="col-md-12 row clearfix bottommargin common-height">
 				<div class="col-md-6 center height">
-					<div class="topmargin" data-animate="">
+					<div class="topmargin">
 						<img class="shop__image" src="images/DIYGuidesDesktop.jpg">
 					</div>
 				</div>
 				<div class="topmargin col-md-6 height">
-					<div class="flex flex-start" data-animate="">
+					<div class="flex flex-start">
 						<h2 class="text-left blue">DIY GUIDES </h2>
 						<h2 class="text-left smallMarginLeft"><strong> -FREE</strong></h2>
 					</div>
@@ -631,14 +620,14 @@
 			<div class="footer-widgets-wrap clearfix">
 				<div class="col-lg-6">
 					<div class="widget clearfix">
-						<img src="images/twocolorlogowhite.svg" alt="" class="footer-logo">
+						<img src="images/twocolorlogowhite.svg" alt="" class="footer-logo footer-shop">
 						<div><strong>Email us : </strong></abbr> <a href="mailto:rumble@rumblelab.com"> rumble@rumblelab.com</a></div>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="widget widget_links clearfix">
 						<h4 class="left">Menu</h4>
-						<ul>
+						<ul class="footer-flex">
 							<li><a href="/index#works">How It Works</a></li>
 							<li><a href="/index#expect">What to Expect</a></li>
 							<li><a href="/index#testimonials">Testimonials</a></li>
