@@ -324,6 +324,13 @@ img.header-logo {
 	background-position: 50% 50%;
 }
 
+.mobile-header2 {
+	background: url('../images/marsbannerv3.svg'); 
+	background-size: cover; 
+	background-position: center top !important;
+	height: 75vh;
+}
+
 .shopify-buy__product {
 	margin-bottom: 2rem;
 }
@@ -597,6 +604,10 @@ img.header-logo {
 	background-color: #EBEBEB;
 }
 
+#marscrate {
+	background-color: #EBEBEB;
+}
+
 .nomargin {
 	margin-bottom: 0px !important;
 }
@@ -678,6 +689,68 @@ img.header-logo {
 	flex-direction: column;
 }
 
+.blueish {
+	background-color: #302b70;
+	border: 25px solid #fff;
+	color: #fff;
+}
+
+.checkicon {
+	height: 4rem;
+	width: 4rem;
+}
+
+.nodot {
+	list-style-type: none;
+	margin-top: 5rem;
+}
+
+.listitemlg {
+	font-size: 2rem;
+	margin-left: 2rem;
+}
+
+.curiousBadge {
+	width: 30rem;
+}
+
+.reasonsFlex {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#reasons {
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+
+.textShift {
+	font-family: Montserrat,sans-serif!important;
+	font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 2px;
+	line-height: 1;
+	margin-top: 0 !important;
+	padding-top: 10rem;
+    text-transform: uppercase;
+}
+
+.textShiftp {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.bannerMobileSize {
+	font-size: 40px !important;
+}
+
+.reverseIt {
+	display: flex;
+    flex-direction: column;
+}
+
 // CUSTOM MEDIA QUERIES
 @media all and (min-width: 768px) {
 	.rumble_head {
@@ -719,6 +792,13 @@ img.header-logo {
 		background-size: cover; 
 		background-position: 50% 50%;
 	}
+
+	.mobile-header2 {
+		background: url('../images/MarsSpaceBannerV2.svg'); 
+		background-size: cover; 
+		background-position: 50% 50%;
+		height: 55vh;
+	}	
 
 	.bottommargin2 {
 		margin-bottom: 50px!important
@@ -825,6 +905,18 @@ img.header-logo {
 	.footer-shop {
 		width: 65%;
 	}
+
+	.reasonsFlex {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.bannerMobileSize {
+		font-size: 55px !important;
+	}
+
 }
 
 @media all and (min-width: 992px) {
@@ -840,6 +932,11 @@ img.header-logo {
 
 	.footer-shop {
 		width: 45%;
+	}
+
+	.reverseIt {
+		display: flex;
+		flex-direction: row;
 	}
 }
 
