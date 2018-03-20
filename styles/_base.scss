@@ -202,7 +202,8 @@ dl, dt, dd, ol, ul, li {
     color: #fff;
     padding: 1rem;
 	width: 11rem;
-    text-align: center;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 
@@ -310,6 +311,17 @@ img.header-logo {
 	justify-content: space-around;
 }
 
+.listFlex {
+	display: flex!important;
+	flex: 1 1 auto;
+}
+
+.listIcon {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
 .bb {
 	border-bottom: 2px solid black;
 }
@@ -325,6 +337,13 @@ img.header-logo {
 }
 
 .mobile-header2 {
+	background: url('../images/marsbannerv3.svg'); 
+	background-size: cover; 
+	background-position: center top !important;
+	height: 75vh;
+}
+
+.mobile-header3 {
 	background: url('../images/marsbannerv3.svg'); 
 	background-size: cover; 
 	background-position: center top !important;
@@ -697,6 +716,7 @@ img.header-logo {
 
 .checkicon {
 	height: 4rem;
+	margin-bottom: 2rem;
 	width: 4rem;
 }
 
@@ -751,6 +771,62 @@ img.header-logo {
     flex-direction: column;
 }
 
+// SECONDARY NAV
+.container2 {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 5rem;	
+	margin-right: 5rem;
+}
+.secondary-nav {
+	display: block;
+	margin-bottom: 0rem;
+	text-align: center;
+}
+.secondary-nav__container {
+}
+
+.secondary-nav__list {
+	background-color: #444;
+	color: #fff!important;
+	margin: 0;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+	list-style-type: none;
+	padding: 0;
+}
+
+.secondary-nav__list li {
+	display: inline-block;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+
+	&:hover {
+		color: #318BC6;
+	}
+}
+
+.secondary-nav__list a {
+	color: #fff;
+	display: block;
+	padding: 13px 20px;
+
+	&:hover {
+		color: #318BC6;
+	}
+}
+
+.secondary-nav__list a:hover span {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 2px;
+}
+
+.noTop {
+	margin-top: -1.25rem!important;
+}
+
 // CUSTOM MEDIA QUERIES
 @media all and (min-width: 768px) {
 	.rumble_head {
@@ -799,6 +875,13 @@ img.header-logo {
 		background-position: 50% 50%;
 		height: 55vh;
 	}	
+
+	.mobile-header3 {
+		background: url('../images/MarsSpaceBannerV2.svg'); 
+		background-size: cover; 
+		background-position: 50% 50%;
+		height: 38vh;
+	}
 
 	.bottommargin2 {
 		margin-bottom: 50px!important
@@ -937,6 +1020,18 @@ img.header-logo {
 	.reverseIt {
 		display: flex;
 		flex-direction: row;
+	}
+
+	.mobile-header3 {
+		background: url('../images/MarsSpaceBannerV2.svg'); 
+		background-size: cover; 
+		background-position: 50% 50%;
+		height: 55vh;
+	}
+
+	.secondary-nav__list a {
+		display: block;
+		padding: 5px 45px;
 	}
 }
 

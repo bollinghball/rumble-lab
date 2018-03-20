@@ -9,7 +9,8 @@
         "main": "scripts/site.js"
     },
     "watch": [
-        "index.html"
+        "index.html",
+        "educators.html"
     ],
     "server": true,
     "compileJs": true,
