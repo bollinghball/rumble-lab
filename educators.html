@@ -89,66 +89,72 @@
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
-        
+    
             <!-- Header
 		============================================= -->
-        <header class="sticky-header">
-            <div class="container2">
-                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-                <!-- Logo
-					============================================= -->
-                <div id="logo">
-                    <a href="/index" class="standard-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" alt="RumbleLab Logo" style=""></a>
-                    <a href="/index" class="retina-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" class="" alt="RumbleLab Logo" style=""></a>
-                </div>
-                <!-- #logo end -->
-                <!-- Primary Navigation
-					============================================= -->
-                <nav  id="primary-menu" class="dark">
-                    <ul>
-                        <li>
-                            <a class="shopNow" href="/mars#marscrate">
-                                <div class="shop2">Shop Now</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-             <!-- #primary-menu end -->
-            <!-- Secondary Navigation
-            ============================================= -->
-             <div class="secondary-nav__container">
-                <nav class="secondary-nav" role="navigation">
-                    <ul class="secondary-nav__list">
-                        <li class="secondary-nav__item active">
-                            <a href="#">
-                                <span>Intro</span>
-                            </a>
-                        </li>
-                        <li class="secondary-nav__item">
-                            <a href="#">
-                                <span>Topics</span>
-                            </a>
-                        </li>
-                        <li class="secondary-nav__item">
-                            <a href="#">
-                                <span>Resources</span>
-                            </a>
-                        </li>
-                        <li class="secondary-nav__item">
-                            <a href="#">
-                                <span>Blog</span>
-                            </a>
-                        </li>
-                        <li class="secondary-nav__item">
-                            <a href="#">
-                                <span>Discount</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav> 
-            </div> 
-            <!-- #secondary-menu end -->
+        <header id="header" class="sticky-header">
+			<div id="header-wrap">
+				<div class="container container2">
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<!-- Logo
+						============================================= -->
+					<div id="logo">
+						<a href="/index" class="standard-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" alt="RumbleLab Logo" style=""></a>
+						<a href="/index" class="retina-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" class="" alt="RumbleLab Logo" style=""></a>
+					</div>
+					<!-- #logo end -->
+					<!-- Primary Navigation
+						============================================= -->
+					<nav id="primary-menu" class="dark">
+						<ul>
+							 <li>
+								<a href="/educators">
+									<div class="menuUnderline">Educators</div>
+								</a>
+							</li> 
+							<li>
+								<a class="shopNow" href="/mars#marscrate">
+									<div class="shop2">Shop Now</div>
+								</a>
+							</li>
+						</ul>
+					</nav>
+            		 <!-- #primary-menu end -->
+				</div>
+				<!-- Secondary Navigation
+				============================================= -->
+
+					<nav class="secondary-nav" role="navigation">
+						<ul class="secondary-nav__list">
+							<li class="secondary-nav__item active">
+								<a href="#">
+									<span>Intro</span>
+								</a>
+							</li>
+							<li class="secondary-nav__item">
+								<a href="#">
+									<span>Topics</span>
+								</a>
+							</li>
+							<li class="secondary-nav__item">
+								<a href="#">
+									<span>Resources</span>
+								</a>
+							</li>
+							<li class="secondary-nav__item">
+								<a href="#">
+									<span>Blog</span>
+								</a>
+							</li>
+							<li class="secondary-nav__item">
+								<a href="#">
+									<span>Discount</span>
+								</a>
+							</li>
+						</ul>
+					</nav> 
+				<!-- #secondary-menu end -->
+			</div>
         </header>
 		<!-- #header end -->
 		<section>
@@ -194,7 +200,7 @@
             <div class="infoSpecific">
                 <h1>Looking for something more specific?</h1>
                 <p>We would love to work with you to create a crate that suits your needs.</p>
-                <a class="shop2" href="#">Email Us!</a>
+                <a class="emailButton" href="#">Email Us!</a>
             </div>
             <img src="../images/innovationmachine.png">
         </div>
@@ -633,25 +639,23 @@
 			<!-- Footer Widgets
 				============================================= -->
 			<div class="footer-widgets-wrap clearfix">
-				<div class="col_one_third">
-					<div class="widget clearfix">
-						<img src="images/twocolorlogowhite.svg" alt="" class="footer-logo">
-						<div><strong>Email us : </strong></abbr> <a href="mailto:rumble@rumblelab.com"> rumble@rumblelab.com</a></div>
+				<div class="col_one_fifth">
+					<div class="widget widget_links clearfix">
+						<h4>RumbleLab</h4>
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="col_one_third">
+				<div class="col_one_fifth">
 					<div class="widget widget_links clearfix">
-						<h4 class="left">Menu</h4>
+						<h4>Support</h4>
 						<ul>
-							<li><a href="/index#works">How It Works</a></li>
-							<li><a href="/index#expect">What to Expect</a></li>
-							<li><a href="/index#testimonials">Testimonials</a></li>
-							<li><a href="/index#inside">What's Inside</a></li>
-							<li><a href="/shop">Shop</a></li>
 							<li><a href="/faq">FAQ</a></li>
 						</ul>
 					</div>
-					<div class="widget" style="margin-bottom: -20px;">
+					 <!-- <div class="widget" style="margin-bottom: -20px;">
 						<div class="row">
 							<div class="col-md-6 clearfix bottommargin-sm">
 								<a href="facebook.com/rumblelab" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
@@ -661,12 +665,30 @@
 								<a class="fb-link" href="facebook.com/rumblelab"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
 							</div>
 						</div>
+					</div>  -->
+				</div>
+				<div class="col_one_fifth">
+					<div class="widget widget_links clearfix">
+						<h4>Resources</h4>
+						<ul>
+							<li><a href="#">Curriculum Guide</a></li>
+							<li><a href="#">YouTube Lessons</a></li>
+							<li><a href="#">Educator Discount</a></li>
+						</ul>
 					</div>
 				</div>
-
-				<div class="col_one_third col_last">
+				<div class="col_one_fifth">
+					<div class="widget widget_links clearfix">
+						<h4>Shop</h4>
+						<ul>
+							<li><a href="#">Shop Products</a></li>
+							<li><a href="#">Free DIY Guides</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col_one_fifth col_last">
 					<!-- Begin MailChimp Signup Form -->
-						<div id="mc_embed_signup">
+					<div id="mc_embed_signup">
 						<form action="//rumblelab.us12.list-manage.com/subscribe/post?u=cfde6b7df0d278f915bb096f4&amp;id=9b4c2cd923" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							<div id="mc_embed_signup_scroll">
 							<h2>Enter your email and we will send you plans for projects you can invent from things you have lying around the house!</h2>
@@ -689,40 +711,41 @@
 							</div>
 						</form>
 						<!--End mc_embed_signup-->
+					</div>	
 				</div>
 			</div>
-		</div>
 		<!-- .footer-widgets-wrap end -->
 		<!--</div>-->
 		<!-- Copyrights
 			============================================= -->
-		<div id="copyrights">
-			<div class="container clearfix">
-				<div class="col_half">
-					Copyrights &copy; 2018 All Rights Reserved by RumbleLab.<br>
-					<div class="copyright-links"><a href="/terms.html">Terms of Use</a> / <a href="/privacy.html">Privacy Policy</a></div>
-				</div>
-				<div class="col_half col_last tright">
-					<div class="fright clearfix">
-						<a href="http://www.facebook.com/rumblelab" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-							<a href="http://www.twitter.com/rumblelab" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-							<a href="http://www.instagram.com/therumblelab" class="social-icon si-small si-borderless si-instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-							</a>
+			<div id="copyrights">
+				<div class="container clearfix">
+					<div class="col_half">
+						Copyrights &copy; 2018 All Rights Reserved by RumbleLab.<br>
+						<div class="copyright-links"><a href="/terms.html">Terms of Use</a> / <a href="/privacy.html">Privacy Policy</a></div>
 					</div>
-					<div class="clear"></div>
-					<i class="icon-envelope2"></i><a class="email-link" href="mailto:rumble@rumblelab.com"> rumble@rumblelab.com</a></span>
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="http://www.facebook.com/rumblelab" class="social-icon si-small si-borderless si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="http://www.twitter.com/rumblelab" class="social-icon si-small si-borderless si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+								<a href="http://www.instagram.com/therumblelab" class="social-icon si-small si-borderless si-instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+						</div>
+						<div class="clear"></div>
+						<i class="icon-envelope2"></i><a class="email-link" href="mailto:rumble@rumblelab.com"> rumble@rumblelab.com</a></span>
+					</div>
 				</div>
 			</div>
-		</div>
 		<!-- #copyrights end -->
+		</div>
 	</footer>
 	<!-- #footer end -->
 	</div>
