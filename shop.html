@@ -76,7 +76,7 @@
 	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1584438808514557&ev=PageView&noscript=1" /></noscript>
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="styles/style.min.css?v=2" type="text/css" />
 	<!-- Document Title
 	============================================= -->
@@ -96,7 +96,7 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="/index" class="standard-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" alt="RumbleLab Logo" style=""></a>
+						<a href="/index" class="standard-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" alt="RumbleLab Logo"></a>
 						<a href="/index" class="retina-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" class="" alt="RumbleLab Logo" style=""></a>
 					</div>
 					<!-- #logo end -->
@@ -177,7 +177,7 @@
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'rumblelab.myshopify.com',
-      apiKey: '15d24cef8a7b2292a4d82c5cb1882905',
+      apiKey: myApiKey,
       appId: '6',
     });
 
@@ -327,7 +327,7 @@
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'rumblelab.myshopify.com',
-      apiKey: '15d24cef8a7b2292a4d82c5cb1882905',
+      apiKey: myApiKey,
       appId: '6',
     });
 
@@ -475,7 +475,7 @@
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'rumblelab.myshopify.com',
-      apiKey: '15d24cef8a7b2292a4d82c5cb1882905',
+      apiKey: myApiKey,
       appId: '6',
     });
 
@@ -599,7 +599,7 @@
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-<form action="https://rumblelab.us12.list-manage.com/subscribe/post?u=cfde6b7df0d278f915bb096f4&amp;id=9b4c2cd923" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="https://rumblelab.us12.list-manage.com/subscribe/post?u=" + secretKey + "&amp;id=" + listID method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -711,9 +711,8 @@
 	<div id="gotoTop" class="icon-angle-up"></div>
 	<!-- External JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type='text/javascript' src='js/config.js'></script>
-	<script type='text/javascript' src='js/site.js'></script>
+	<script type='text/javascript' src='scripts/config.js'></script>
+	<script type='text/javascript' src='scripts/site.js'></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<!-- Footer Scripts
 	============================================= -->

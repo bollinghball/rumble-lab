@@ -5,3 +5,5 @@
 
 let myApiKey = config.SHOPIFY_KEY;
 let secretKey = config.MAILCHIMP_KEY;
+let listID = config.M_LIST_ID;
+let myIdLife = config.GOOGLE_ANALYTICS;

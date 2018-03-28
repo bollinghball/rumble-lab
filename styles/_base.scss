@@ -225,9 +225,26 @@ dl, dt, dd, ol, ul, li {
 	background-color: #444;
 }
 
-.emailButton {
+.shop4 {
 	background-color: #78B657;
     border-radius: 3px;
+    color: #fff;
+    padding: 1rem;
+	width: 11rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.shop4:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+.emailButton {
+	background-color: #78B657;
+	border-radius: 3px;
+	border: 2px solid transparent;
     color: #fff;
     padding: 1rem;
 	width: 15rem;
@@ -237,6 +254,8 @@ dl, dt, dd, ol, ul, li {
 
 .emailButton:hover {
 	background-color: #444;
+	border: 2px solid #fff;
+	color: #fff;
 }
 
 .add:hover {
@@ -327,6 +346,7 @@ img.header-logo {
 
 .listFlex {
 	display: flex !important;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
@@ -335,9 +355,10 @@ img.header-logo {
 .listIcon {
 	align-items: center;
 	display: flex;
+	flex: 0 1 33%;
 	flex-direction: column;
-	text-align: center;
 	margin-right: 1.5rem;
+	text-align: center;
 
 	&:last-child {
 		margin-right: 0;
@@ -552,6 +573,12 @@ img.header-logo {
 	height: 30rem;
 	max-width: 100%;
 }
+
+.max-width5	{
+	height: 50rem;
+	max-width: 100%;
+}
+
 
 .cardBorder {
 	background-color: #fff;
@@ -802,18 +829,26 @@ img.header-logo {
 	color: #fff;
 	background-color: #414042;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	margin-bottom: 0;
 	padding: 5rem;
-}
-
-.infoSpecific {
-	padding-right: 10rem;
+	padding: 3rem;
 }
 
 .whiteBlock {
 	background-color: #fff;
 	padding: 2rem;
+}
+
+.whiteBlock2 {
+	background-color: #fff;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
+	padding: 2rem;
+}
+
+.whiteBlock2:hover {
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 #primary-menu a:hover .menuUnderline {
@@ -826,7 +861,7 @@ img.header-logo {
 .secondary-nav {
 	display: block;
 	left: 0;
-	margin-bottom: 0rem;
+	margin-bottom: -1rem;
 	text-align: center;
 	top: 6rem;
 	width: 100%;
@@ -876,56 +911,21 @@ img.header-logo {
 	text-transform: uppercase;
 }
 
-
 .videoSection {
-	// display: flex;
-	// justify-content: center;
+	background-color: #444;
 	color: #fff;
-	background-image: url('../images/keyboard.jpg');
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 30rem;
-	z-index: 1;
+	display: flex;
+	flex-direction: column;
 }
-
-.videoSection::before {
-    position: absolute;
-    content: " ";
-    top: 0;
-	left: 15px;
-    width: 114rem;
-    display: block;
-    background-color: rgba(0,0,0,.5);
-	bottom: 0;
-	z-index: 999;
-}
-// .videoImage {
-// 	align-content: flex-end;
-// 	height: 30rem;
-// }
-
-// .videoSectionContainer {
-// 	display: flex;
-//     width: 50%;
-// }
-
-// .youTubeSpecific {
-// 	display: block;
-//     margin: 0 auto;
-//     margin-top: 7rem;
-// }
 
 .youTubeSpecific {
 	color: #fff;
-    padding: 5rem 0px 0px 10rem;
+	padding: 0rem 2rem 3rem 3rem;
 }
 
-// .videoImageContainer {
-//     display: flex;
-//     justify-content: flex-end;
-// 	width: 50%;
-// }
+.infoIdeaImage {
+	margin-top: 4rem;
+}
 
 .sec-nav-mobile {
 	display: block;
@@ -942,6 +942,11 @@ img.header-logo {
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
+
+.littleBottom {
+	margin-bottom: 3rem;
+}
+
 
 // CUSTOM MEDIA QUERIES
 @media all and (min-width: 768px) {
@@ -1116,15 +1121,39 @@ img.header-logo {
 		font-size: 55px !important;
 	}
 
-	.listFlex {
-		// width: 1250px;
+	.moreInfo {
+		color: #fff;
+		background-color: #414042;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 0;
+		padding: 5rem;
 	}
 
-	.listIcon {
-		align-items: center;
-		display: flex;
-		flex: 0 1 33%;
-		flex-direction: column;
+	.infoIdeaImage {
+		margin-top: 0;
+	}
+
+	.infoSpecific {
+		padding-right: 10rem;
+	}
+
+	.videoSection {
+		flex-direction: row;
+	}
+
+	.youTubeSpecific {
+		color: #fff;
+		padding: 0rem 2rem 0rem 3rem;
+	}
+
+	.listFlex {
+		display: flex !important;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 auto;
 	}
 
 }
@@ -1165,15 +1194,11 @@ img.header-logo {
 		padding: 13px 45px;
 	}
 
-	.listFlex {
-		max-width: 1220px;
-	}
-
 	.listIcon {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
-		flex: 1 1 19%;
+		flex: 0 1 30%;	
 	}
 
 	.container2 {
@@ -1184,6 +1209,20 @@ img.header-logo {
 		margin-right: 5rem!important;
 		position: relative!important;
 		width: 100%!important;
+	}
+
+	.secondary-nav {
+		display: block;
+		left: 0;
+		margin-bottom: 0rem;
+		text-align: center;
+		top: 6rem;
+		width: 100%;
+	}
+
+	.youTubeSpecific {
+		color: #fff;
+		padding: 6rem 4rem 0 7rem;
 	}
 }
 
