@@ -117,13 +117,13 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::-moz-selection {
-	background: #1ABC9C; /* Firefox */
+	background: #0E5A95; /* Firefox */
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #1ABC9C; /* Safari */
+	background: #0E5A95; /* Safari */
 	color: #FFF;
 	text-shadow: none;
 }
@@ -169,6 +169,11 @@ dl, dt, dd, ol, ul, li {
 	height: 30rem;
 	max-width: initial;
 	width: auto;
+}
+
+.shopHeading {
+	font-size: 48px!important;
+	text-transform: uppercase;
 }
 
 .add {
@@ -390,7 +395,11 @@ img.header-logo {
 	background: url('../images/marsbannerv3.svg'); 
 	background-size: cover; 
 	background-position: center top !important;
-	height: 75vh;
+	height: 100%;
+}
+
+.mobileText {
+	margin-bottom: 9rem;
 }
 
 .shopify-buy__product {
@@ -575,7 +584,7 @@ img.header-logo {
 }
 
 .max-width5	{
-	height: 50rem;
+	height: 55rem;
 	max-width: 100%;
 }
 
@@ -769,9 +778,9 @@ img.header-logo {
 }
 
 .checkicon {
-	height: 10rem;
-	margin-bottom: 2rem;
-	width: 10rem;
+	height: 8rem;
+	margin-bottom: 1rem;
+	width: 8rem;
 }
 
 .nodot {
@@ -844,7 +853,7 @@ img.header-logo {
 .whiteBlock2 {
 	background-color: #fff;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
-	padding: 2rem;
+	padding: 1rem;
 }
 
 .whiteBlock2:hover {
@@ -947,6 +956,17 @@ img.header-logo {
 	margin-bottom: 3rem;
 }
 
+.topMarginXs {
+	margin-top: 1rem;
+}
+
+.topMarginXL {
+	margin-top: 5.5rem;
+}
+
+.tinyleft {
+	margin-left: -9px;
+}
 
 // CUSTOM MEDIA QUERIES
 @media all and (min-width: 768px) {
@@ -1001,7 +1021,7 @@ img.header-logo {
 		background: url('../images/MarsSpaceBannerV2.svg'); 
 		background-size: cover; 
 		background-position: 50% 50%;
-		height: 38vh;
+		height: 100%;
 	}
 
 	.bottommargin2 {
@@ -1143,6 +1163,11 @@ img.header-logo {
 		flex-direction: row;
 	}
 
+	.videoImage {
+		height: 50%;
+		width: 50%;
+	}
+
 	.youTubeSpecific {
 		color: #fff;
 		padding: 0rem 2rem 0rem 3rem;
@@ -1154,6 +1179,23 @@ img.header-logo {
 		flex-wrap: wrap;
 		justify-content: center;
 		margin: 0 auto;
+		max-width: 1178px;
+	}
+
+	.listIcon {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		flex: 0 1 28%;	
+	}
+
+	.max-width5	{
+		height: 55rem;
+		max-width: 65%;
+	}
+
+	.tinyleft {
+		margin-left: initial;
 	}
 
 }
@@ -1182,7 +1224,7 @@ img.header-logo {
 		background: url('../images/MarsSpaceBannerV2.svg'); 
 		background-size: cover; 
 		background-position: 50% 50%;
-		height: 38vh;
+		height: 100%;
 	}
 
 	.secondary-nav {
@@ -1198,7 +1240,7 @@ img.header-logo {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
-		flex: 0 1 30%;	
+		flex: 0 1 15%;	
 	}
 
 	.container2 {
@@ -1224,17 +1266,30 @@ img.header-logo {
 		color: #fff;
 		padding: 6rem 4rem 0 7rem;
 	}
+
+	.max-width5	{
+		height: 50rem;
+		max-width: 100%;
+	}
+
+	.flex4 {
+		display: flex;
+	}
 }
 
 @media all and (min-width: 1146px) {
 	img.header-logo {
 		width: initial !important;
 	}
+
+	.textShift {
+		padding-top: 12rem;
+	}
 }
 
-@media all and (min-width: 1000px) {
-	.flex4 {
-		display: flex;
+@media all and (min-width: 1200px) {
+	.topMarginXL {
+		margin-top: 3rem;
 	}
 }
 
