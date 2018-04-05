@@ -166,14 +166,29 @@ dl, dt, dd, ol, ul, li {
 
 
 .shop__image {
-	height: 30rem;
-	max-width: initial;
-	width: auto;
+	max-width: 55rem;
+	width: 100%;
 }
 
 .shopHeading {
-	font-size: 48px!important;
+	font-size: 36px!important;
 	text-transform: uppercase;
+}
+
+.discountHeading {
+	font-size: 36px!important;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.discountWidth {
+	display: block;
+	margin: 0 auto;
+	max-width: 992px;
+}
+
+.blueaccent {
+	color: #318bc6 !important;
 }
 
 .add {
@@ -259,6 +274,23 @@ dl, dt, dd, ol, ul, li {
 
 .emailButton:hover {
 	background-color: #444;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.emailButton2 {
+	background-color: #78B657;
+	border-radius: 3px;
+	border: 2px solid transparent;
+    color: #fff;
+    padding: 1rem;
+	width: 15rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.emailButton2:hover {
+	background-color: #318bc6;
 	border: 2px solid #fff;
 	color: #fff;
 }
@@ -400,6 +432,8 @@ img.header-logo {
 
 .mobileText {
 	margin-bottom: 9rem;
+	padding-top: 4rem;
+	padding-bottom: 10rem;
 }
 
 .shopify-buy__product {
@@ -702,6 +736,18 @@ img.header-logo {
 	background-color: #fff;
 }
 
+#challenge {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 2rem;
+	width: 100%;
+}
+
+#guides {
+	background-color: #fff;
+	margin-top: 5rem;
+}
+
 .smallMarginLeft {
 	margin-left: 10px;
 }
@@ -968,6 +1014,15 @@ img.header-logo {
 	margin-left: -9px;
 }
 
+.centerTheBlock {
+	display: block;
+	margin: 0 auto;
+}
+
+.missionText {
+	padding: 2rem;
+}
+
 // CUSTOM MEDIA QUERIES
 @media all and (min-width: 768px) {
 	.rumble_head {
@@ -1130,6 +1185,10 @@ img.header-logo {
 		width: 65%;
 	}
 
+	.footer-shop2 {
+		width: 40%;
+	}
+
 	.reasonsFlex {
 		align-items: center;
 		display: flex;
@@ -1164,8 +1223,8 @@ img.header-logo {
 	}
 
 	.videoImage {
-		height: 50%;
-		width: 50%;
+		height: 65%;
+		width: 65%;
 	}
 
 	.youTubeSpecific {
@@ -1198,6 +1257,10 @@ img.header-logo {
 		margin-left: initial;
 	}
 
+	.shopHeading {
+		font-size: 48px!important;
+	}
+
 }
 
 @media all and (min-width: 992px) {
@@ -1211,7 +1274,7 @@ img.header-logo {
 		flex-direction: row;
 	}
 
-	.footer-shop {
+	.footer-shop, .footer-shop2 {
 		width: 45%;
 	}
 
