@@ -2,8 +2,8 @@
 
 require_once 'campaign-monitor/csrest_subscribers.php';
 
-$apiKey = ''; // Your Campaign Monitor API Key
-$listId = ''; // Your Campaign Monitor List ID
+$apiKey = 'bfe657675a9d715c19f50532bf2f17f0-us12'; // Your Campaign Monitor API Key
+$listId = '9b4c2cd923'; // Your Campaign Monitor List ID
 
 if( isset( $_GET['list'] ) AND $_GET['list'] != '' ) {
 	$listId = $_GET['list'];
