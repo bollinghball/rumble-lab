@@ -15,6 +15,9 @@ ExpiresByType application/x-shockwave-flash "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
+
+RewriteCond %{HTTP_HOST} ^www\.rumblelab\.com$ RewriteRule ^/?$ "http\:\/\/rumblelab\.com\/" [R=301,L]
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
