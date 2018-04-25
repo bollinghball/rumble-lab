@@ -1068,6 +1068,28 @@ img.header-logo {
 	flex-basis: 55%;
 }
 
+.youTubeOverview {
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+
+.littleBottom2 {
+	margin-bottom: 2rem;
+}
+
+.homeShop {
+	text-align: center !important;
+	width: 18.5rem !important;
+}
+
+.watchVideo {
+	background-color: #318bc6!important;
+
+	&:hover {
+		background-color: #444 !important;
+	}
+}
+
 // CUSTOM MEDIA QUERIES
 @media all and (min-width: 768px) {
 	.rumble_head {
@@ -4390,7 +4412,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	text-shadow: none;
 }
 
-.slider-caption h2 {
+.slider-caption h1 {
 	font-size: 55px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -7900,13 +7922,14 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .heading-block { margin-bottom: 50px; }
 
-.heading-block h1 {
-	margin-bottom: 0;
-	font-weight: 700;
-	letter-spacing: 1px;
-	color: #105A94;
-}
+// .heading-block h1 {
+// 	margin-bottom: 0;
+// 	font-weight: 700;
+// 	letter-spacing: 1px;
+// 	color: #105A94;
+// }
 
+.heading-block h1,
 .heading-block h2,
 .heading-block h3,
 .heading-block h4,
