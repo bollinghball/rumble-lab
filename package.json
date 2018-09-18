@@ -8,6 +8,7 @@
     "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=."
   },
   "dependencies": {
+    "modal-video": "^2.3.2",
     "node-sass": "^4.8.3"
   }
 }
