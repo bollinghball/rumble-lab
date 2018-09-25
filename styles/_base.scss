@@ -466,6 +466,20 @@ img.header-logo {
 	width: 55%;
 }
 
+.smallRumble3 {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.smallRumble4 {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
 #mc_embed_signup {
 	background:#333;
 	clear:left; 
@@ -725,6 +739,12 @@ img.header-logo {
 	background-position: 50% 50%; 
 	padding-bottom: 5rem;
 	padding-top: 5rem;
+}
+
+.traplist li {
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
 }
 
 #works {
@@ -1147,7 +1167,7 @@ img.header-logo {
 	}
 
 	.mobile-header {
-		background: url('../images/RLHomepage.png'); 
+		background: url('../images/RLHomepage.svg'); 
 		background-size: cover; 
 		background-position: 50% 50%;
 	}
@@ -1189,6 +1209,18 @@ img.header-logo {
 	.smallRumble2 {
 		width: 25%;
 		height: 100%;
+	}
+
+	.smallRumble3 {
+		width: 75%;
+		height: 75%;
+		margin: initial;
+	}
+
+	.smallRumble4 {
+		width: 31%;
+		height: 31%;
+		margin: initial;
 	}
 
 	.side {
