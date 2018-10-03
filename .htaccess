@@ -1,5 +1,8 @@
-ErrorDocument 404 http://rumblelab.com/404page.html
-ErrorDocument 500 http://rumblelab.com/404page.html
+# Force HTTPS & URL-canonicalization
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} !^rumblelab\.com [NC,OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://rumblelab.com/$1 [R=301,L]
 
 <IfModule mod_expires.c>
 ExpiresActive On
@@ -16,10 +19,15 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
 
-RewriteCond %{HTTP_HOST} ^www\.rumblelab\.com$ RewriteRule ^/?$ "http\:\/\/rumblelab\.com\/" [R=301,L]
-
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^rumblelab.com [NC]
-RewriteRule ^(.*)$ http://www.rumblelab.com/$1 [L,R=301,NC]
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+ErrorDocument 404 /404page
+ErrorDocument 500 /404page
+
+
+

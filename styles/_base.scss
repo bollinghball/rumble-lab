@@ -442,6 +442,10 @@ img.header-logo {
 	padding-bottom: 10rem;
 }
 
+.bordering {
+	border-bottom: 2px solid black;
+}
+
 .mobileText2 {
 	padding-top: 4rem;
 	padding-bottom: 10rem;
@@ -856,6 +860,12 @@ img.header-logo {
 	flex-direction: column;
 }
 
+.contactflex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
 .blueish {
 	background-color: #302b70;
 	border: 25px solid #fff;
@@ -1218,8 +1228,8 @@ img.header-logo {
 	}
 
 	.smallRumble4 {
-		width: 31%;
-		height: 31%;
+		width: 62%;
+		height: 62%;
 		margin: initial;
 	}
 
@@ -1312,6 +1322,12 @@ img.header-logo {
 
 	.footer-shop2 {
 		width: 40%;
+	}
+
+	.contactflex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
 	}
 
 	.reasonsFlex {
